@@ -1,0 +1,31 @@
+{
+  "name": "mock-premier-league",
+  "version": "1.0.0",
+  "description": "An API that serves the latest scores of fixtures of matches in a “Mock Premier League”",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludralph/mock-premier-league.git"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb"
+  ],
+  "author": "Raphael Etim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludralph/mock-premier-league/issues"
+  },
+  "homepage": "https://github.com/ludralph/mock-premier-league#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
