@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const teamSchema = mongoose.Schema({
+const teamSchema = new mongoose.Schema({
 	teamName: {
 		type: String,
 		unique: true,
@@ -11,7 +11,7 @@ const teamSchema = mongoose.Schema({
 	},
 	teamMembers: {
 		name: {
-			type: String, 
+			type: String,
 			required: true
 		},
 		role: {
@@ -32,4 +32,4 @@ const teamSchema = mongoose.Schema({
 	},
 });
 
-module.exports =  mongoose.model('Team', teamSchema);
+module.exports = mongoose.model('Team', teamSchema);
